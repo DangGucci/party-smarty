@@ -14,7 +14,9 @@ The checkbox and passphrase are stored in your RuneLite config profile. With pro
 
 ## Running
 
-From this folder:
+On Windows, install [Git](https://git-scm.com/download/win) and [Temurin JDK 11](https://adoptium.net/temurin/releases/?version=11). Download [Party Smarty.bat](Party%20Smarty.bat) and double-click it. The first run downloads this repository beside that file and starts RuneLite. Later double-clicks update from GitHub and start it again.
+
+From a copy of this folder, the same file starts the client. You can also run:
 
 ```
 .\gradlew run
