@@ -2,6 +2,8 @@
 
 A [RuneLite](https://runelite.net) plugin that rejoins a saved party when you log in.
 
+RuneLite denied this plugin for the Plugin Hub. Auto-rejoin for parties is on their [rejected-features list](https://github.com/runelite/runelite/wiki/Rejected-or-Rolled-Back-Features) because it would put undue strain on the party servers. The pull request was closed: https://github.com/runelite/plugin-hub/pull/19833
+
 Enable **Party Smarty** and the built-in **Party** plugin. Open the Party Smarty icon under **Hub Party Panel**, or the Party Smarty config, and check **Auto rejoin**. Set **Party passphrase** to the passphrase from the Party panel (**Copy passphrase**). Joining a party also stores that passphrase in the field. The sidebar and the config edit the same saved values.
 
 Each time the client starts, and each time you log in, Party Smarty joins that party. Open the Party panel to see members who are connected to it. No Join click is needed.
