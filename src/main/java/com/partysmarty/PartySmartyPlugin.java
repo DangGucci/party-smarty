@@ -48,8 +48,7 @@ import net.runelite.client.ui.NavigationButton;
 	name = "Party Smarty",
 	configName = "partysmarty",
 	description = "Rejoin a saved RuneLite party on login",
-	tags = {"party"},
-	enabledByDefault = false
+	tags = {"party"}
 )
 public class PartySmartyPlugin extends Plugin
 {
